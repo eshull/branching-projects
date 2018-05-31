@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Animals</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+  <script src="js/scripts.js" type="text/javascript"></script>
+</head>
+  <body>
+
+    <div class="container">
+      <form class="warmOrCold">
+        <h3>What type of animal do you like?</h3>
+        <select class="form-control" id="bloodType">
+          <option value="warmbBlood">Warmblooded Animals</option>
+          <option value="coldBlood">Coldblooded Animals</option>
+        </select>
+        <input type="submit" id="bloodSubmit">
+      </form>
+
+      <form class="scalyOrSlimy">
+        <h3>What kind of skin do you like?</h3>
+        <select class="form-control" id="skinType">
+          <option value="scaly">Scaly</option>
+          <option value="slimy">Slimy</option>
+        </select>
+        <input type="submit" id="skinSubmit">
+      </form>
+
+      <div class="animal mammals">
+        <h3>You Like Mammals!</h3>
+      </div>
+      <div class="animal reptile">
+        <h3>You Like Reptiles!</h3>
+      </div>
+      <div class="animal amphibian">
+        <h3>You Like Amphibians!</h3>
+      </div>
+      <p>To go back to voting<a href="index.html">Click here</a>.</p>
+      <p>To play again <a href="animals.html">Click here</a>.</p>
+    </div>
+  </body>
+</html>

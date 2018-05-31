@@ -1,3 +1,13 @@
-#canVote, #cannotVote {
+#canVote,
+#cannotVote,
+.rideable,
+.smallRides,
+.mediumRides,
+.tallRides {
+  display: none;
+}
+
+.animal,
+.scalyOrSlimy {
   display: none;
 }
